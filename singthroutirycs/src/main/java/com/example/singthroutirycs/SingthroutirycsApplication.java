@@ -1,4 +1,4 @@
-package com.example.sing_throu_lyrics;
+package com.example.singthroutirycs;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,14 +7,14 @@ import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
 @RestController
-public class SingThrouLyricsApplication {
+public class SingthroutirycsApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SingThrouLyricsApplication.class, args);
+        SpringApplication.run(SingthroutirycsApplication.class, args);
     }
 
-    @GetMapping("/")
-    public String hello(){
-        return "hello";
+    @GetMapping("/simple-request")
+    public String simpleRequest(){
+        return "ok";
     }
 }

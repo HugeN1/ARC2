@@ -1,10 +1,10 @@
-package com.example.sing_throu_lyrics;
+package com.example.singthroutirycs;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SingThrouLyricsApplicationTests {
+class SingthroutirycsApplicationTests {
 
     @Test
     void contextLoads() {
